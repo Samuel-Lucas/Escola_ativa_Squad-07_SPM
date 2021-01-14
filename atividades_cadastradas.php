@@ -32,7 +32,7 @@
 
         ?>
 
-        <div class="container d-flex justify-content-center mt-5">
+        <div class="container d-flex justify-content-center mt-5 mb-4">
             <div class="card border" style="width: 50rem; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                 <div class="container d-flex justify-content-end mt-2">
@@ -76,7 +76,7 @@
                     <div class="modal-footer">
                         <input type="submit" class="btn btn-danger" value="sim">
                         <input type="hidden" name="excluiatividade" id="id_atividade" value="">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Não</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
                      </div>
                 </form>
             </div>

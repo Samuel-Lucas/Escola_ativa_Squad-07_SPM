@@ -2,8 +2,8 @@
     require_once "php/actions/conexao.php";
     include_once "php/includes/head.php";
     include_once "php/includes/header.php";
+    include "php/actions/verifica_login.php";
 
- //   $id = $_GET['id'] ?? '';
     $id_tarefa = $_GET['idatividade'] ?? '';
 
     $sql = "select * from atividades where id_atividade = '$id_tarefa'";
@@ -55,6 +55,33 @@
             </div>
         </form>
     </div>
+
+    <script>
+
+        window.onload = function() {
+            // Auto complete item da metodologia
+            let metodologiaEscolhida = "<?= $dados['metodologia']; ?>"
+            let itens = document.getElementsByName('metodologia')
+
+            for(let i = 0; i < itens.length; i++) {
+
+                if(itens[i].value == metodologiaEscolhida) {
+                    itens[i].checked = true
+                }
+            }
+
+            // Remoção da duplicação na lista referente à disciplina escolhida
+            let disciplinaEscolhida = "<?= $dados['disciplina']; ?>"
+            let opcoes = document.getElementsByTagName('option')
+            
+            for(let j = 1; j < opcoes.length; j++) {
+
+                if(opcoes[j].value == disciplinaEscolhida) {
+                    opcoes[j].style.display = 'none'
+                }
+            }
+        }
+    </script>
 
 <?php include_once "php/includes/footer.php"; ?>
 <?php include_once "php/includes/final_html.php"; ?>
