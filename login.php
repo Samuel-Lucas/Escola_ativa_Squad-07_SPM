@@ -59,7 +59,10 @@
                                 <button type="submit" class="btn btn-info btn-block">Entrar</button>
                             </form>             
 
-                            <a href="cadastro.php" class="text-secondary ml-auto">Criar Conta</a>
+                            <div class="criar-conta">
+                                <a href="cadastro.php" class="text-secondary ml-auto">Criar Conta</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
