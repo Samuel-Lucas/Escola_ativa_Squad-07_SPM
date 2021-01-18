@@ -20,8 +20,19 @@
 .img-login {
     text-align: center;
     margin: auto;
-    width: 500px;
     vertical-align: center;
+}
+
+@media (max-width : 768px) {
+    .img-login {
+        width: 250px;
+    }
+}
+
+@media (min-width : 768px) {
+    .img-login {
+        width: 500px;
+    }
 }
 
 .face {
