@@ -5,6 +5,12 @@
 
     $categoria = $_GET['categoria'];
 
+?>
+
+    <h3 class="text-center text-secondary mt-3">Metodologias para <?php echo $categoria; ?></h3>
+
+<?php
+
     $sql = "select atividades.disciplina, atividades.metodologia, atividades.titulo,
     atividades.descricao, atividades.links, usuarios.nome from atividades join usuarios
     on usuarios.id_usuario = atividades.autor where atividades.disciplina = '$categoria';";
@@ -16,15 +22,21 @@
 ?>
 
     <div class="container d-flex justify-content-center mt-5 mb-4">
+        
             <div class="card border" style="width: 50rem; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                 <div class="container d-flex justify-content-end mt-2">
-                    <p>Publicado por: <a href="#"><?php echo $row['nome']; ?></a></p>
+                    <p>Publicado por: <a href="#" class="text-info"><?php echo $row['nome']; ?></a></p>
                 </div>
 
-                <h4 class="text-center mt-3">Disciplina: <?php echo $row['disciplina']; ?></h4>
+                <div style="background-color: #00b300">
+                    <h4 class="text-center text-white mt-3">Disciplina: <?php echo $row['disciplina']; ?></h4>
+                </div>
 
-                <h5 class="text-center">Metodologia: <?php echo $row['metodologia']; ?></h5>
+                <div style="background-color: #00cc00">
+                    <h5 class="text-center text-white p-1">Metodologia: <?php echo $row['metodologia']; ?></h5>
+                </div>
+
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $row['titulo']; ?></h5>
                     <p class="card-text"><?php echo $row['descricao']; ?></p>
