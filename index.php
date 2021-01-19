@@ -16,7 +16,7 @@
                         <div class="card-body bg-light">
                           <h5 class="card-title">Matemática</h5>
                           <p class="card-text">Confira metodologias ativas para a disciplina de Matemática.</p>
-                          <a href="categoria.php?categoria=matematica" class="btn btn-success">Confira</a>
+                          <a href="categoria.php?categoria=matematica" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@
                         <div class="card-body bg-light">
                           <h5 class="card-title">Língua Portuguesa</h5>
                           <p class="card-text">Confira metodologias ativas para a disciplina de Língua Portuguesa.</p>
-                          <a href="categoria.php?categoria=Linguagens" class="btn btn-success">Confira</a>
+                          <a href="categoria.php?categoria=Linguagens" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@
                         <div class="card-body bg-light">
                           <h5 class="card-title">Geografia</h5>
                           <p class="card-text">Confira metodologias ativas para a disciplina de Geografia.</p>
-                          <a href="categoria.php?categoria=Ciências Humanas" class="btn btn-success">Confira</a>
+                          <a href="categoria.php?categoria=Ciências Humanas" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
                 </div>

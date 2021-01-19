@@ -16,7 +16,7 @@
 
     <div class="container mt-4 mb-5">
 
-        <form action="php/actions/editar_atividade.php" method="post" class="form-group">
+        <form action="php/actions/editar_atividade.php" method="post" class="form-group form-incluir">
 
             <label>Disciplina:</label><br>
             <select name="disciplina" class="form-control bg-gray">

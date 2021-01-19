@@ -25,8 +25,8 @@
         
             <div class="card border" style="width: 50rem; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
-                <div class="container d-flex justify-content-end mt-2">
-                    <p>Publicado por: <a href="#" class="text-info"><?php echo $row['nome']; ?></a></p>
+                <div class="container d-flex justify-content-end" style="background-color: #f2f2f2">
+                    <p class="pt-3">Publicado por: <a href="#" class="text-info"><?php echo $row['nome']; ?></a></p>
                 </div>
 
                 <div style="background-color: #00b300">

@@ -28,7 +28,7 @@
 
                         <h3 class="text-center text-secondary mt-3">Entre com sua conta</h3>
 
-                        <div class="container mt-5">
+                        <div class="container mt-4">
                             <form action="php/actions/logar.php" class="form-group" method="post">
 
                                 <input type="text" name="email" class="form-control email" placeholder="E-mail"><br>

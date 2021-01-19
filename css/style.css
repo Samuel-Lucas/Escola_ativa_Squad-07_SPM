@@ -87,6 +87,10 @@
     height: 350px;
 }
 
+.form-incluir label{
+    font-weight: bold;
+}
+
 .remocao {
     height: 45px;
 }
