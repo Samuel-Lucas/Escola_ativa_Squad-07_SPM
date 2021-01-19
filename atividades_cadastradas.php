@@ -25,7 +25,9 @@
 
 ?>     
 
-        <h3 class="text-center mt-3">Suas atividades cadastradas</h3>  
+        <h3 class="text-center mt-3">Suas atividades cadastradas</h3>
+
+        <div style="min-height: 500px;"> 
 
         <?php
             while($row = mysqli_fetch_assoc($result)) {
@@ -98,6 +100,10 @@
         </script>
 
 <?php } ?>
+    </div> 
 <?php } ?>
 
-<?php include_once "php/includes/final_html.php"; ?>
+<?php
+    include_once "php/includes/final_html.php";
+    include_once "php/includes/footer.php";   
+?>

@@ -9,6 +9,8 @@
 
     <h3 class="text-center text-secondary mt-3">Metodologias para <?php echo $categoria; ?></h3>
 
+    <div style="min-height: 500px;">
+
 <?php
 
     $sql = "select atividades.disciplina, atividades.metodologia, atividades.titulo,
@@ -20,6 +22,7 @@
     while($row = mysqli_fetch_assoc($result)) {
 
 ?>
+    
 
     <div class="container d-flex justify-content-center mt-5 mb-4">
         
@@ -51,3 +54,10 @@
         </div>
 
     <?php } ?>
+
+    </div>
+
+<?php  
+    include_once "php/includes/footer.php"; 
+    include_once "php/includes/final_html.php"; 
+?>
