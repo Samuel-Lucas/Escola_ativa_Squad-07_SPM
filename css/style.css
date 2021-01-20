@@ -18,8 +18,21 @@
 }
 
 .img-login {
-    margin-top: 130px;
-    margin-bottom: 70px;
+    text-align: center;
+    margin: auto;
+    vertical-align: center;
+}
+
+@media (max-width : 768px) {
+    .img-login {
+        width: 250px;
+    }
+}
+
+@media (min-width : 768px) {
+    .img-login {
+        width: 500px;
+    }
 }
 
 .face {
@@ -72,6 +85,10 @@
 
 .container_perfil {
     height: 350px;
+}
+
+.form-incluir label{
+    font-weight: bold;
 }
 
 .remocao {

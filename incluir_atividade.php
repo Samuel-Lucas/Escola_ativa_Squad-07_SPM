@@ -19,7 +19,7 @@
 
     <div class="container mt-4 mb-5">
 
-        <form action="php/actions/cadastrar_atividade.php" method="post" class="form-group">
+        <form action="php/actions/cadastrar_atividade.php" method="post" class="form-group form-incluir">
 
             <label>Disciplina:</label><br>
             <select name="disciplina" class="form-control bg-gray">
@@ -30,14 +30,14 @@
                 <option value="Ciências da Natureza">Ciências da Natureza</option>
             </select><br><br>
 
-            <label>Metodologia</label><br>
+            <label>Metodologia:</label><br>
 
-            <div class="d-flex flex-wrap justify-content-md-between justify-content-sm-around">
-                <span><input type="radio" name="metodologia" value="Mão na massa"> Mão na Massa</span>
-                <span><input type="radio" name="metodologia" value="Sala invertida"> Sala de aula Invertida</span>
-                <span><input type="radio" name="metodologia" value="Aprendizagem em dupla"> Aprendizagem em Dupla</span>
-                <span><input type="radio" name="metodologia" value="Gameficação"> Gameficação</span>
-                <span><input type="radio" name="metodologia" value="Tecnologias criativas"> Tecnologias Criativas</span>
+            <div class="d-flex flex-wrap justify-content-md-between justify-content-sm-around ">
+                <span class="mx-3"><input type="radio" name="metodologia" value="Mão na massa"> Mão na Massa</span>
+                <span class="mx-3"><input type="radio" name="metodologia" value="Sala invertida"> Sala de aula Invertida</span>
+                <span class="mx-3"><input type="radio" name="metodologia" value="Aprendizagem em dupla"> Aprendizagem em Dupla</span>
+                <span class="mx-3"><input type="radio" name="metodologia" value="Gameficação"> Gameficação</span>
+                <span class="mx-3"><input type="radio" name="metodologia" value="Tecnologias criativas"> Tecnologias Criativas</span>
             </div><br><br>
 
             <span><label>Título: </label> <input type="text" name="titulo" class="form-control bg-gray"></span><br>

@@ -27,7 +27,7 @@
                 <div class="row">
 
                     <div class="bloco_esquerdo col-md-6 d-flex justify-content-md-end justify-content-sm-center">
-                        <img src="img/img_login.jpg" class="img-login my-auto" width="250" height="200">
+                        <img src="img/img_login.jpg" class="img-login my-auto">
                     </div>
 
                     <div class="col-md-5 ml-md-3 mt-3">

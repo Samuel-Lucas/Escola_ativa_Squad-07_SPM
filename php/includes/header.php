@@ -56,6 +56,7 @@
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="painel.php">Perfil</a>
                     <a class="dropdown-item" href="atividades_cadastradas.php">Suas atividades</a>
+                    <a class="dropdown-item" href="incluir_atividade.php">Inserir atividade</a>
                     <a class="dropdown-item" href="php/actions/sair.php">Sair</a>
                   </div>
                 </li>
@@ -64,6 +65,10 @@
       
                     <li class="nav-item m-1">
                       <a href="login.php" class="btn btn-outline-dark ml-lg-4">Login</a>
+                    </li>
+
+                    <li class="nav-item m-1">
+                      <a href="cadastro.php" class="btn btn-secondary text-white ml-lg-4">Cadastrar</a>
                     </li>
 
                   <?php } ?>

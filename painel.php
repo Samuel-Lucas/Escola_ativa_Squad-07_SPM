@@ -13,14 +13,14 @@
 ?>      
         <h3 class="text-center mt-3">Seu Perfil</h3>
 
-        <div class="container container_perfil">
+        <div class="container container_perfil mt-4">
                 <div class="row">
-                        <div class="col-md-6 mx-auto">
+                        <div class="col-md-6 mx-auto" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;">
                              <div class="d-flex justify-content-center mb-3">
 
                                 <div class="d-flex flex-column">
                                    <img src="img/perfil.png" class="img-fluid m-2" width="150" height="150">
-                                   <a class="btn btn-secondary"href="#">Editar Perfil</a>
+                                   <a class="btn btn-secondary text-white"href="#">Editar Perfil</a>
                                 </div>
                              </div>
 

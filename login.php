@@ -21,25 +21,14 @@
                 <div class="row">
 
                     <div class="bloco_esquerdo col-md-6 d-flex justify-content-md-end justify-content-sm-center">
-                        <img src="img/img_login.jpg" class="img-login" width="250">
+                        <img src="img/img_login.jpg" class="img-login">
                     </div>
 
-                    <div class="col-md-5 ml-md-3 mt-5">
-                        
-                        <div class="container">
+                    <div class="col-md-5 ml-md-3 mt-md-5">
 
-                            <div class="google d-flex justify-content-around align-items-center mb-2 border">
-                                <img src="img/logo_google.png">
-                                <p class="text-white my-auto margem_google mr-5 pr-4">Login com Google</p>
-                            </div>
+                        <h3 class="text-center text-secondary mt-3">Entre com sua conta</h3>
 
-                            <div class="face d-flex justify-content-around align-items-center mb-3">
-                                <img src="img/face_logo.png">
-                                <p class="text-white my-auto mr-5">Login com Facebook</p>
-                            </div>
-                        </div>
-
-                        <div class="container">
+                        <div class="container mt-4">
                             <form action="php/actions/logar.php" class="form-group" method="post">
 
                                 <input type="text" name="email" class="form-control email" placeholder="E-mail"><br>
@@ -59,7 +48,10 @@
                                 <button type="submit" class="btn btn-info btn-block">Entrar</button>
                             </form>             
 
-                            <a href="cadastro.php" class="text-secondary ml-auto">Criar Conta</a>
+                            <div class="criar-conta">
+                                <a href="cadastro.php" class="text-secondary ml-auto">Criar Conta</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>

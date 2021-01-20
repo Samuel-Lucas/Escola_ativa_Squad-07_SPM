@@ -20,12 +20,14 @@
                 
                 $id = $_SESSION['id_usuario'];
                 
-                $sql = "select * from atividades where autor = $id";
+                $sql = "select * from atividades where autor = $id order by id_atividade desc";
                 $result = $conn->query($sql);
 
 ?>     
 
-        <h3 class="text-center mt-3">Suas atividades cadastradas</h3>  
+        <h3 class="text-center mt-3">Suas atividades cadastradas</h3>
+
+        <div style="min-height: 500px;"> 
 
         <?php
             while($row = mysqli_fetch_assoc($result)) {
@@ -35,7 +37,8 @@
         <div class="container d-flex justify-content-center mt-5 mb-4">
             <div class="card border" style="width: 50rem; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
-                <div class="container d-flex justify-content-end mt-2">
+                <div class="container d-flex justify-content-end pt-3" style="background-color: #f2f2f2">
+                
                     <a href="edicao.php?idatividade=<?php echo $row['id_atividade']; ?>" class="btn mr-3">
                         <img src="img/editar.jpg" width="35">
                     </a>
@@ -43,9 +46,14 @@
                     onclick="pegarDados('<?php echo $row['id_atividade']; ?>', '<?php echo $row['titulo']; ?>')">X</button>
                 </div>
 
-                <h4 class="text-center mt-3">Disciplina: <?php echo $row['disciplina']; ?></h4>
+                <div style="background-color: #00b300">
+                    <h4 class="text-center text-white mt-3">Disciplina: <?php echo $row['disciplina']; ?></h4>
+                </div>
 
-                <h5 class="text-center">Metodologia: <?php echo $row['metodologia']; ?></h5>
+                <div style="background-color: #00cc00">
+                    <h5 class="text-center text-white p-1">Metodologia: <?php echo $row['metodologia']; ?></h5>
+                </div>
+                
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $row['titulo']; ?></h5>
                     <p class="card-text"><?php echo $row['descricao']; ?></p>
@@ -92,6 +100,10 @@
         </script>
 
 <?php } ?>
+    </div> 
 <?php } ?>
 
-<?php include_once "php/includes/final_html.php"; ?>
+<?php
+    include_once "php/includes/final_html.php";
+    include_once "php/includes/footer.php";   
+?>
