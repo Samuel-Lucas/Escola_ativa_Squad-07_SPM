@@ -8,8 +8,10 @@
                 <div id="container_anoLetivo">
                     <a href="matematica5ano.php"><p class="primeira_linha"> Numeros > Cálculo de porcentagens e representação fracionária</p></a>
                 </div>
-                <div class="atividades">
-                    Gamificação
+                <div class="linha">
+                    <div class="atividades">
+                        Gamificação
+                    </div>
                 </div>
                 <div class="justify-content-between espacamento">
                     <b>Objetivos:<br /></b>
@@ -23,7 +25,7 @@
                     "Vai pro mangue cedo, pra caranguejo catar. Aurora sai com a sacola cheia mas só um quinto vai servir no jantar. O resto vende no mercado da aldeia. Se a moça conseguiu cinquenta e cindo caranguejos pegar, adivinhe quantos no mercado ela vai ofertar?"<br /><br />
 
                     <b>Recurso:</b><br /> 
-                    Caderno e folha para anotações, material para contagem 55 peças (tampinhas, pedrinhas, palitos, lápis de cor, feijão, etc)<br /><br />
+                    Caderno e folha para anotações, 55 pedrinhas.<br /><br />
 
                     <b>Avaliação:</b> - Não Formal<br /><br />
 

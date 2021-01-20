@@ -18,10 +18,10 @@
                     <label></label>
                 </div>
             </div><br/>
-            <p class="ml-1 area_conhecimento conteudo desativado" onclick="selecionaMateria('Geometria')">Geometria</p>
+            <p class="ml-1 area_conhecimento conteudo" onclick="selecionaMateria('Geometria')">Geometria</p>
             <div class="box_materia" id="Geometria" style="display:none;">
                 <div id="container_anoLetivo">
-                    <label></label>
+                <a href="geometria.php"><p class="primeira_linha">Figuras geométricas planas: reconhecimento do formato das faces de figuras geométricas espaciais</p></a>
                 </div>
             </div><br/>
             </div>

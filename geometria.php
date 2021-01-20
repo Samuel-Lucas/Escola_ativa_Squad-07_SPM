@@ -6,15 +6,15 @@
             <div id="container-historia">
             <a href="ensinoFundamental.php"><h3 class="text-secondary mb-4"> Matemática > 5ºano </h3></a>
                 <div id="container_anoLetivo">
-                    <a href="matematica5ano.php"><p class="primeira_linha"> Numeros > Representação fracionária dos números racionais</p></a>
+                    <a href="matematica5ano.php"><p class="primeira_linha"> Geometria > Figuras geométricas planas: reconhecimento do formato das faces de figuras geométricas espaciais</p></a>
                 </div>
                 <div class="fracao"> 
                         <div class="seta">
                             <p class="tamanho"> > </p>
                         </div>
                         <div class="texto">
-                            <p>(EF05MA03) Identificar e representar frações (menores e maiores que a unidade), associando-as ao resultado 
-                                de uma divisão ou à ideia de parte de um todo, utilizando a reta numérica como recurso.</p>
+                            <p>(EF01MA14) Identificar e nomear figuras planas (círculo, quadrado, retângulo e triângulo) em desenhos 
+                                apresentados em diferentes disposições ou em contornos de faces de sólidos geométricos.</p>
                         </div>
                         <div class="linha">
                             <div class="atividades">
@@ -26,12 +26,12 @@
                                 <label>
                                 Aprendizagem Entre Partes</label>
                             </div>
-                            <div class="atividades">
-                                <a href="gamificacao.php"><label style="cursor: pointer;">
+                            <div class="atividades desativado">
+                                <label>
                                 Gameficação</label></a>
                             </div>
-                            <div class="atividades desativado"> 
-                                <label>
+                            <div class="atividades"> 
+                            <a href="mao_massa.php"><label style="cursor: pointer;">
                                 Mão na Massa</label>
                             </div>
                             <div class="atividades desativado">
