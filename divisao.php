@@ -6,15 +6,15 @@
             <div id="container-historia">
             <a href="ensinoFundamental.php"><h3 class="text-secondary mb-4"> Matemática > 5ºano </h3></a>
                 <div id="container_anoLetivo">
-                    <a href="matematica5ano.php"><p class="primeira_linha"> Numeros > Representação fracionária dos números racionais</p></a>
+                    <a href="matematica5ano.php"><p class="primeira_linha"> Numeros > Problemas: multiplicação e divisão de números racionais cuja representação decimal é finita por números naturais</p></a>
                 </div>
                 <div class="fracao"> 
                         <div class="seta">
                             <p class="tamanho"> > </p>
                         </div>
                         <div class="texto">
-                            <p>(EF05MA03) Identificar e representar frações (menores e maiores que a unidade), associando-as ao resultado 
-                                de uma divisão ou à ideia de parte de um todo, utilizando a reta numérica como recurso.</p>
+                            <p>(EF05MA08) Resolver e elaborar problemas de multiplicação e divisão com números naturais e com números racionais cuja representação decimal é finita (com multiplicador natural
+                                    e divisor natural e diferente de zero), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.</p>
                         </div>
                         <div class="linha">
                             <div class="atividades">
