@@ -23,8 +23,8 @@
                     <div class="card my-2 mx-auto" style="width: 18rem; cursor: pointer;">
                         <img class="card-img-top" src="img/img2.jpg" alt="Card image cap">
                         <div class="card-body bg-light">
-                          <h5 class="card-title">Língua Portuguesa</h5>
-                          <p class="card-text">Confira metodologias ativas para a disciplina de Língua Portuguesa.</p>
+                          <h5 class="card-title">Linguagens</h5>
+                          <p class="card-text">Confira metodologias ativas para a disciplina de Linguagens.</p>
                           <a href="categoria.php?categoria=Linguagens" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                     <div class="card my-2 mx-auto" style="width: 18rem; cursor: pointer;">
                         <img class="card-img-top" src="img/img3.jpg" alt="Card image cap">
                         <div class="card-body bg-light">
-                          <h5 class="card-title">Geografia</h5>
-                          <p class="card-text">Confira metodologias ativas para a disciplina de Geografia.</p>
+                          <h5 class="card-title">Ciências humanas</h5>
+                          <p class="card-text">Confira metodologias ativas para disciplinas de Ciências humanas.</p>
                           <a href="categoria.php?categoria=Ciências Humanas" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
