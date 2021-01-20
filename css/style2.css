@@ -1,0 +1,17 @@
+.atividades {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 37px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #DC9542;
+}
+.linha {
+    width: 927px;
+    left: 260px;
+    
+    border-bottom: 2px solid #D7D7D7;
+    
+}

@@ -6,7 +6,7 @@
             <div id="container-historia">
                 <h3 class="text-center text-secondary mb-4"> Metodologias Ativas </h3><br/>
                 <h4> Comunidade escola ativa: Juntos somos mais Fortes!</h4><br/>
-                Materiais para alavancar o aprendizado através de metodologias ativas dentro e fora da sala de aula para escolas com público vulnerável.<br/><br/>
+                Materiais para alavancar o aprendizado através de metodologias ativas dentro e fora da sala de aula.<br/><br/>
                 Compartilhamento de boas práticas entre escolas e fortalecimento da rede de ensino.</p><br/>
                 <div class="row d-flex flex-wrap">
                     <div class="card-body mx-auto ensino">

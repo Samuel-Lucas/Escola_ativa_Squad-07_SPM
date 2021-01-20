@@ -5,7 +5,7 @@
             <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/Logo.jpeg) no-repeat"></div>
             <div id="container-historia">
                 <h4 class="text-center text-secondary mb-4"> Quem Somos </h4><br/>
-                <p> &numsp; &numsp; Comunidade de professores que compartilham metodologias ativas e boas práticas pedagógicas voltadas para escolas vulneráveis.</p><br/>
+                <p> &numsp; &numsp; Comunidade de professores que compartilham metodologias ativas e boas práticas pedagógicas voltadas para escolas.</p><br/>
                 <h4> Nossa Missão </h4><br/>
                 <p> &numsp; &numsp; Aumentar o alcance das metodologias ativas a serem aplicadas dentro e fora da sala de aula, utilizando matéria prima de fácil acesso e materiais reciclados, aliados a conteúdo aplicado dentro da BNCC. </p><br/>
                 <h4>Vantagens</h4>

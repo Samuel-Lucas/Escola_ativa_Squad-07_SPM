@@ -17,7 +17,7 @@
                 <i><strong><p> &numsp; &numsp; Aproveite nossa comunidade utilizando e se inspirando e compartilhando ferramentas gratuitas, materiais e conteúdos de fácil 
                     utilização, projetos com materiais domésticos e reciclados para tornar a sua aula mais efetiva em retenção de conteúdo, mais colaborativa e alavancar os 
                     índices de aprendizagem.</p>
-                <p> &numsp; &numsp; Escolas vulneráveis necessitam de métodos que gerem valor a um custo reduzido ou nulo, com aulas dentro da realidade dos nossos alunos 
+                <p> &numsp; &numsp; Escolas públicas necessitam de métodos que gerem valor a um custo reduzido ou nulo, com aulas dentro da realidade dos nossos alunos 
                     considerando suas particularidades, demandas e atenção plena.</p>
                 <p style="text-align: center; font-size: 20px;">Juntos podemos fazer essa transformação!</p></strong></i><br/>
             </div>
