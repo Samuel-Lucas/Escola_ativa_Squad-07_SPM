@@ -8,7 +8,7 @@
                 <p class="ml-1 area_conhecimento conteudo" onclick="selecionaMateria('Números')">Números</p>
             <div class="box_materia" id="Números" style="display:none;">
                 <div id="container_anoLetivo">
-                    <a href="fracao.php"><p class="primeira_linha">Representação fracionária dos números racionais</p></a>
+                    <a href="fracao.php"><p class="primeira_linha">Problemas: multiplicação e divisão de números racionais cuja representação decimal é finita por números naturais</p></a>
                     <p class="primeira_linha desativado">Problemas: adição e subtração de números naturais e números racionais cuja representação decimal é finita</p>
                 </div>
             </div><br/>
