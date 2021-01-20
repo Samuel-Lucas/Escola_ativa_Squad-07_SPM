@@ -26,7 +26,7 @@
                     - Com apenas papel e lápis, os alunos terão 10 minutos para pensar em como vão construir a sua torre;<br />
                     - Cada grupo deverá escrever como pretende realizar a construção da torre e utilizar esboços se quiser;<br /> 
                     - Cada grupo recebe 20 macarrões spaguetti, a fita durex, 1m de barbante e tesoura, com isso, os alunos terão 40 minutos para construir a torre;<br />
-                    - A torre tem que permanecer em pé durante 1 minutos.<br /><br />
+                    - A torre tem que permanecer em pé durante 1 minuto.<br /><br />
 
                     <b>Recurso:</b><br /> 
                     Papel, lápis, macarrões spaguetti, fita durex, barbante e tesoura.<br /><br />
