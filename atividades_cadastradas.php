@@ -20,7 +20,7 @@
                 
                 $id = $_SESSION['id_usuario'];
                 
-                $sql = "select * from atividades where autor = $id";
+                $sql = "select * from atividades where autor = $id order by id_atividade desc";
                 $result = $conn->query($sql);
 
 ?>     

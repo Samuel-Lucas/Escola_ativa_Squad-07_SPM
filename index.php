@@ -16,7 +16,7 @@
                         <div class="card-body bg-light">
                           <h5 class="card-title">Matemática</h5>
                           <p class="card-text">Confira metodologias ativas para a disciplina de Matemática.</p>
-                          <a href="categoria.php?categoria=matematica" class="btn btn-success text-white">Confira</a>
+                          <a href="categoria.php?categoria=Matemática" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
 
