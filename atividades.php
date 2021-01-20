@@ -6,7 +6,7 @@
         <div id="container-historia">
             <a href="ensinoFundamental.php"><h3 class="text-secondary mb-4"> Matemática > 5ºano </h3></a>
                 <div id="container_anoLetivo">
-                    <a href="matematica5ano.php"><p class="primeira_linha"> Numeros > Cálculo de porcentagens e representação fracionária</p></a>
+                    <a href="matematica5ano.php"><p class="primeira_linha"> Numeros > Problemas: multiplicação e divisão de números racionais cuja representação decimal é finita por números naturais</p></a>
                 </div>
                 <div class="linha">
                     <div class="atividades">
