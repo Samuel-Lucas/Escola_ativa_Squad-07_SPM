@@ -67,4 +67,40 @@ function validaForm(form) {
             form.confirmasenha.focus()
             return false
         }         
+
 }
+
+
+function validaAtividade(form){
+    let disciplina = form.disciplina.value
+    let titulo = form.titulo.value
+    let descricao = form.descricao.value
+    let links = form.links.value
+
+
+    if (disciplina == '') {
+        alert('Selecione uma disciplina.')
+        form.disciplina.focus()
+        return false
+    }
+
+    
+    if (titulo == '') {
+        alert('Informe um titulo.')
+        form.titulo.focus()
+        return false
+    }
+    if (descricao == '') {
+        alert('Faça uma descrição do seu projeto.')
+        form.descricao.focus()
+        return false
+    }
+    if (links == '') {
+        alert('Informe um link de referência.')
+        form.links.focus()
+        return false
+    }
+}
+
+
+

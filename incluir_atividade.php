@@ -19,7 +19,7 @@
 
     <div class="container mt-4 mb-5">
 
-        <form action="php/actions/cadastrar_atividade.php" method="post" class="form-group form-incluir">
+        <form action="php/actions/cadastrar_atividade.php" method="post" class="form-group form-incluir" name="form" onsubmit="return validaAtividade(this);">
 
             <label>Disciplina:</label><br>
             <select name="disciplina" class="form-control bg-gray">

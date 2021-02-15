@@ -2,14 +2,14 @@
     require_once "conexao.php";
 
     session_start();
-
+    /*
     if(empty($_POST['disciplina']) || empty($_POST['metodologia']) || empty($_POST['titulo'])
     || empty($_POST['descricao']) || empty($_POST['links']) || empty($_POST['termo'])) {
 
         $_SESSION['erro_atividade'] = true;
         header("Location: ../../incluir_atividade.php");
     }
-
+*/
     if(isset($_POST['disciplina']) && isset($_POST['metodologia']) && isset($_POST['titulo'])
     && isset($_POST['descricao']) && isset($_POST['links']) && isset($_POST['termo'])) {
 
