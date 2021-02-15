@@ -14,7 +14,7 @@
 <?php
 
     $sql = "select atividades.disciplina, atividades.metodologia, atividades.titulo,
-    atividades.descricao, atividades.links, usuarios.nome from atividades join usuarios
+    atividades.descricao, atividades.links, usuarios.nome, usuarios.sobrenome from atividades join usuarios
     on usuarios.id_usuario = atividades.autor where atividades.disciplina = '$categoria';";
 
     $result = $conn->query($sql);
@@ -23,13 +23,12 @@
 
 ?>
     
-
     <div class="container d-flex justify-content-center mt-5 mb-4">
         
             <div class="card border" style="width: 50rem; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                 <div class="container d-flex justify-content-end" style="background-color: #f2f2f2">
-                    <p class="pt-3">Publicado por: <a href="#" class="text-info"><?php echo $row['nome']; ?></a></p>
+                    <p class="pt-3">Publicado por: <a href="#" class="text-info"><?php echo $row['nome'].' '.$row['sobrenome']; ?></a></p>
                 </div>
 
                 <div style="background-color: #00b300">
