@@ -7,7 +7,7 @@
               <div class="container">
       
                 <a href="index.php">
-                  <img class="navbar-brand" src="img/logo.jpg" width="142">
+                  <img class="navbar-brand" src="img/logo_escola_ativa.png" width="142">
                 </a>
       
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navPrincipal">

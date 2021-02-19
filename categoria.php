@@ -15,7 +15,8 @@
 
     $sql = "select atividades.disciplina, atividades.metodologia, atividades.titulo,
     atividades.descricao, atividades.links, usuarios.nome, usuarios.sobrenome from atividades join usuarios
-    on usuarios.id_usuario = atividades.autor where atividades.disciplina = '$categoria';";
+    on usuarios.id_usuario = atividades.autor where atividades.disciplina = '$categoria'
+    order by atividades.id_atividade desc;";
 
     $result = $conn->query($sql);
 
