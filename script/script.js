@@ -13,21 +13,33 @@ function validaForm(form) {
         return false
     }
 
-    if(nome.length > 50) {
+    if(nome.length > 25) {
         alert('Ultrapassou o limite do campo nome')
+        form.nome.focus()
+        return false
+    }
+
+    if (!/^[a-zA-Z]*$/g.test(nome)) {
+        alert("Seu nome possui caracteres inválidos")
         form.nome.focus()
         return false
     }
 
     if(sobrenome == '') {
         alert('Preencha seu sobrenome')
-        form.nome.focus()
+        form.sobrenome.focus()
         return false
     }
 
-    if(sobrenome.length > 50) {
+    if(sobrenome.length > 25) {
         alert('Ultrapassou o limite do campo sobrenome')
-        form.nome.focus()
+        form.sobrenome.focus()
+        return false
+    }
+
+    if (!/^[a-zA-Z]*$/g.test(sobrenome)) {
+        alert("Seu sobrenome possui caracteres inválidos")
+        form.sobrenome.focus()
         return false
     }
 
@@ -99,7 +111,7 @@ function validaAtividade(form){
         return false
     }
     if (links == '') {
-        alert('Informe um link de referência.')
+        alert('Informe links de referência.')
         form.links.focus()
         return false
     }
