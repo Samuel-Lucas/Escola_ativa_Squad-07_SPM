@@ -92,11 +92,22 @@ function validaAtividade(form){
     let titulo = form.titulo.value
     let descricao = form.descricao.value
     let links = form.links.value
+    let metodologias = document.getElementsByName('metodologia')
+    let checkbox = form.termo
 
 
     if (disciplina == '') {
         alert('Selecione uma disciplina.')
         form.disciplina.focus()
+        return false
+    }
+    if (!validateRadio(metodologias)){
+        alert('Selecione uma metodologia.')
+        return false
+    }
+    if (titulo.length > 30) {
+        alert('Limite máximo de caracteres ultrapassado.')
+        form.titulo.focus()
         return false
     }
     
@@ -105,8 +116,14 @@ function validaAtividade(form){
         form.titulo.focus()
         return false
     }
+   
     if (descricao == '') {
         alert('Faça uma descrição do seu projeto.')
+        form.descricao.focus()
+        return false
+    }
+    if (descricao.length > 1000) {
+        alert('Limite máximo de caracteres ultrapassado.')
         form.descricao.focus()
         return false
     }
@@ -115,6 +132,21 @@ function validaAtividade(form){
         form.links.focus()
         return false
     }
+    if (links.length > 100) {
+        alert('Limite máximo de caracteres ultrapassado.')
+        form.links.focus()
+        return false
+    }
+    if (!validateRadio(metodologias)){
+        alert('Selecione uma metodologia.')
+        return false
+    }
+    if (!checkbox.checked){
+        alert('É necessário aceitar o termo de conteúdo para prosseguir.')
+        return false
+    }
+    
+
 }
 
 
