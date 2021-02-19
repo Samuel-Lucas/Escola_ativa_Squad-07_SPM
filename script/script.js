@@ -86,7 +86,6 @@ function validaForm(form) {
     }         
 }
 
-
 function validaAtividade(form){
     let disciplina = form.disciplina.value
     let titulo = form.titulo.value
@@ -145,10 +144,7 @@ function validaAtividade(form){
         alert('É necessário aceitar o termo de conteúdo para prosseguir.')
         return false
     }
-    
-
 }
-
 
 function validateRadio(radios) {
 

@@ -37,6 +37,15 @@
                           <a href="categoria.php?categoria=Ciências Humanas" class="btn btn-success text-white">Confira</a>
                         </div>
                     </div>
+
+                    <div class="card my-2 mx-auto" style="width: 18rem; cursor: pointer;">
+                        <img class="card-img-top" src="img/img4.jpg" alt="Card image cap">
+                        <div class="card-body bg-light">
+                          <h5 class="card-title">Ciências da natureza</h5>
+                          <p class="card-text">Confira metodologias ativas para disciplinas de Ciências da natureza.</p>
+                          <a href="categoria.php?categoria=Ciências da Natureza" class="btn btn-success text-white">Confira</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <h4 class="text-center text-secondary mb-4">Grau de Escolaridade</h4>
