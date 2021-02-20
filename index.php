@@ -3,12 +3,12 @@
 
           <div class="container mb-5">
             <a class="link-color" style="text-decoration: none;" href="aplicacaoMetodologia.php">
-              <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat">
-                <h3 class="text-center text-white mt-5">Por que aplicar Metodologias Ativas nas escolas?</h3>
+              <div class="jumbotron my-4 d-flex align-items-center " style="background: url(img/aula_jumbotron.jpg) no-repeat">
+                <h3 class="text-center text-white mb-3">Por que aplicar Metodologias Ativas nas escolas?</h3>
               </div>
             </a>
 
-            <h4 class="text-center text-secondary mb-4">Metodologias Ativas</h4>
+            <h4 class="text-center text-secondary mb-4" style="margin-top: 80px">Metodologias Ativas</h4>
 
             <div class="container">
                 <div class="row d-flex flex-wrap justify-content-between espacamento">
