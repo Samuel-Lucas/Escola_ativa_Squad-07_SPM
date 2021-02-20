@@ -3,8 +3,8 @@
         <div class="row d-flex justify-content-between">
             <div class="col-md-2 mt-3 d-flex flex-column align-items-center">
                 <h4>Contato</h4>
-                <p>contato@hotmail.com</p>
-                <p>(11) 3698-6657</p>
+                <p>contato@escolaativa.com</p>
+                <p>(xx) xxxx-xxxx</p>
             </div>
 
             <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">

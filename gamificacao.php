@@ -1,7 +1,7 @@
 <?php include_once "php/includes/head.php"; ?>
 <?php include_once "php/includes/header.php"; ?>
 
-<div class="container mb-4">
+    <div class="container mb-4">
             <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat"></div>
             <div id="container-historia">
             <a href="ensinoFundamental.php"><h3 class="text-secondary mb-4"> Matemática > 5ºano </h3></a>
@@ -36,5 +36,5 @@
             </div>
         </div>
 
-<?php include_once "php/includes/footer.php"; ?>
-<?php include_once "php/includes/final_html.php"; ?>
+<?php include_once "php/includes/footer.php";
+      include_once "php/includes/final_html.php"; ?>
