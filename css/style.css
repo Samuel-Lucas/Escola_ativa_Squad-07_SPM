@@ -48,18 +48,6 @@
 
 }
 
-.face {
-    background: url("../img/barra_face.jpg") no-repeat center;
-    cursor: pointer;
-    background-size: cover;
-}
-
-.google {
-    background: url("../img/barra_google.png") no-repeat center;
-    cursor: pointer;
-    background-size: cover;
-}
-
 .email {
     padding-left: 35px;     
     padding-top: 5px;   
