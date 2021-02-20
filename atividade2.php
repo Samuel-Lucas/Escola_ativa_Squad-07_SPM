@@ -2,7 +2,7 @@
 <?php include_once "php/includes/header.php"; ?>
 
     <div class="container mb-4">
-        <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat"></div>
+        <div class="jumbotron-matematica my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat"></div>
         <div id="container-historia">
             <a href="ensinoFundamental.php"><h3 class="text-secondary mb-4"> Matemática > 5ºano </h3></a>
                 <div id="container_anoLetivo">
