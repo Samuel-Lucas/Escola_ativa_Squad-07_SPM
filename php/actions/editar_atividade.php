@@ -3,13 +3,6 @@
 
     require_once "conexao.php";
 
-    if(empty($_POST['disciplina']) || empty($_POST['metodologia']) || empty($_POST['titulo'])
-    || empty($_POST['descricao']) || empty($_POST['links'])) {
-
-        $_SESSION['erro_edicao'] = true;
-        header("Location: ../../edicao.php");
-    } 
-
     if(isset($_POST['disciplina']) && isset($_POST['metodologia'])  && isset($_POST['titulo'])
     && isset($_POST['descricao']) && isset($_POST['links'])) {
 

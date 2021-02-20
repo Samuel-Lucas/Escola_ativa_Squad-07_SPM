@@ -19,7 +19,7 @@
         <div class="container p-5 mt-4 mb-3 container_login">
             <div class="logo d-flex justify-content-center mb-4">
                 <a href="index.php">
-                    <img src="img/logo_aumentado.jpg" width="160">
+                    <img src="img/logo_escola_ativa.png" width="160">
                 </a>
             </div>
 

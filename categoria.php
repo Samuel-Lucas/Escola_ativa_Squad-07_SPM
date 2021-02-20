@@ -45,7 +45,7 @@
                     <p class="card-text"><?php echo $row['descricao']; ?></p>
 
                     <div class="container d-flex justify-content-between p-0">
-                        <textarea cols="16" rows="3" disabled><?php echo $row['links']; ?></textarea>
+                        <textarea cols="25" rows="3" disabled><?php echo $row['links']; ?></textarea>
                         <img src="img/pdf.png" style="cursor: pointer;" width="60" height="70">
                     </div>
     

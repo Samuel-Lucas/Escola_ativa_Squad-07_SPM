@@ -104,8 +104,9 @@ function validaAtividade(form){
         alert('Selecione uma metodologia.')
         return false
     }
+
     if (titulo.length > 30) {
-        alert('Limite máximo de caracteres ultrapassado.')
+        alert('Limite máximo de caracteres para o título ultrapassado.')
         form.titulo.focus()
         return false
     }
@@ -121,25 +122,30 @@ function validaAtividade(form){
         form.descricao.focus()
         return false
     }
+
     if (descricao.length > 1000) {
-        alert('Limite máximo de caracteres ultrapassado.')
+        alert('Limite máximo de caracteres para a descrição ultrapassado.')
         form.descricao.focus()
         return false
     }
+
     if (links == '') {
         alert('Informe links de referência.')
         form.links.focus()
         return false
     }
+
     if (links.length > 100) {
-        alert('Limite máximo de caracteres ultrapassado.')
+        alert('Limite máximo de caracteres para as referências ultrapassado.')
         form.links.focus()
         return false
     }
+
     if (!validateRadio(metodologias)){
         alert('Selecione uma metodologia.')
         return false
     }
+
     if (!checkbox.checked){
         alert('É necessário aceitar o termo de conteúdo para prosseguir.')
         return false

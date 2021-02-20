@@ -16,7 +16,7 @@
 
     <div class="container mt-4 mb-5">
 
-        <form action="php/actions/editar_atividade.php" method="post" class="form-group form-incluir">
+        <form action="php/actions/editar_atividade.php" method="post" class="form-group form-incluir" name="form" onsubmit="return validaEdicao(this);">
 
             <label>Disciplina:</label><br>
             <select name="disciplina" class="form-control bg-gray">
@@ -49,7 +49,7 @@
             <span>Upload: Passo_a_Passo.pdf (Exemplo)</span><br><br><br>
 
             <div class="container d-flex justify-content-between">
-                <button class="btn btn-success" type="submit">Salvar Alterações</button>
+                <input class="btn btn-success" type="submit" value="Salvar Alterações" />
                 <input type="hidden" name="id_atividade" value="<?= $dados['id_atividade']; ?>">
                 <a class="btn btn-danger text-white" href="atividades_cadastradas.php">Cancelar</a>    
             </div>
@@ -79,6 +79,48 @@
                 if(opcoes[j].value == disciplinaEscolhida) {
                     opcoes[j].style.display = 'none'
                 }
+            }
+        }
+
+        function validaEdicao(form) {
+            let titulo = form.titulo.value
+            let descricao = form.descricao.value
+            let links = form.links.value
+
+            if(titulo == "") {
+                alert("Preenca o título da atividade")
+                form.titulo.focus()
+                return false
+            }
+
+            if (titulo.length > 30) {
+                alert('Limite máximo de caracteres para o título ultrapassado.')
+                form.titulo.focus()
+                return false
+            }
+
+            if(descricao == "") {
+                alert("Preenca a descrição da atividade")
+                form.descricao.focus()
+                return false
+            }
+
+            if (descricao.length > 1000) {
+                alert('Limite máximo de caracteres para a descrição ultrapassado.')
+                form.descricao.focus()
+                return false
+            }
+
+            if(links == "") {
+                alert("Informe links de referências")
+                form.links.focus()
+                return false
+            }
+
+            if (links.length > 100) {
+                alert('Limite máximo de caracteres para as referências ultrapassado.')
+                form.links.focus()
+                return false
             }
         }
     </script>
