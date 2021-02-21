@@ -21,24 +21,26 @@
                                 Técnicas Facilitadoras de Aprendizagem
                             </div>
                         </div>
-                        <div>
-                            <div class="atividades desativado">
-                                <label>
-                                Aprendizagem Entre Partes</label>
+                        <div class="card my-5 mx-auto" style="width: 21rem;">
+                            <div class="card-body bg-light">
+                                <center><h6 class="card-title atividades">Aprendizagem Entre Partes</h6></center>
                             </div>
-                            <div class="atividades">
-                                <a href="gamificacao.php"><label style="cursor: pointer;">
-                                Gameficação</label></a>
+                        </div>
+                        <div class="card my-5 mx-auto" style="width: 21rem; cursor: pointer;">
+                            <div class="card-body bg-light">
+                                <center><h6 class="card-title atividades">Gameficação</h6></center>
                             </div>
-                            <div class="atividades desativado"> 
-                                <label>
-                                Mão na Massa</label>
+                        </div>
+                        <div class="card my-4 mx-auto" style="width: 21rem;">
+                            <div class="card-body bg-light">
+                                <center><a href="mao_massa.php"><h6 class="card-title atividades">Mão na Massa</h6></a></center>
                             </div>
-                            <div class="atividades desativado">
-                                <label>
-                                Sala de Aula Invertida</label>
+                        </div>
+                        <div class="card my-4 mx-auto" style="width: 21rem;">
+                            <div class="card-body bg-light">
+                                <center><h6 class="card-title atividades">Sala de Aula Invertida</h6></center>
                             </div>
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>
