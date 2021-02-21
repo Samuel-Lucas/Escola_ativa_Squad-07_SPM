@@ -32,7 +32,7 @@
                             </div>
                             <div class="atividades"> 
                             <a href="mao_massa.php"><label style="cursor: pointer;">
-                                Mão na Massa</label>
+                                    Mão na Massa</label></a>
                             </div>
                             <div class="atividades desativado">
                                 <label>
