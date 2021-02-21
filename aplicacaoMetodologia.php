@@ -2,7 +2,7 @@
 <?php include_once "php/includes/header.php"; ?>
 
     <div class="container mb-4">
-        <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/aula_jumbotron.jpg) no-repeat"></div>
+        <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/aula_jumbotron.jpg) no-repeat center top"></div>
             <h4 class="text-center text-secondary mb-4" style="margin-top: 100px;> Por que aplicar Metodologias Ativas?</h4>
             <div class="row d-flex flex-wrap" id="container-historia">
                 <p> &numsp; &numsp; <strong>A metodologia ativa</strong> de aprendizagem é uma ruptura brusca com as concepções de ensino mais comumente encontradas 

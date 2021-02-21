@@ -2,7 +2,7 @@
 <?php include_once "php/includes/header.php"; ?>
 
         <div class="container mb-5">
-            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/aula1.jpg) no-repeat"></div>
+            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/aula1.jpg) no-repeat center"></div>
             <div id="container-historia">
                 <h4 class="text-center text-secondary mb-4"> Quem Somos </h4><br/>
                 <p> &numsp; &numsp; Comunidade de professores que compartilham metodologias ativas e boas práticas pedagógicas voltadas para escolas.</p><br/>

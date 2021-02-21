@@ -2,7 +2,7 @@
         <?php include_once "php/includes/header.php"; ?>
 
         <div class="container">
-            <div class="jumbotron my-4 d-flex align-items-center img" style="background: url(img/jumbotron_ensinofundamental.jpg) no-repeat"></div>
+            <div class="jumbotron my-4 d-flex align-items-center img" style="background: url(img/jumbotron_ensinofundamental.jpg) no-repeat center center"></div>
             <div>
                 <h4 class="text-center text-secondary mb-4">Metodologias Ativas para o Ensino Fundamental - BNCC</h4><br/>
             </div>

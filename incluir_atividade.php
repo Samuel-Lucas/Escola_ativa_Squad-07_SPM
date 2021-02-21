@@ -12,7 +12,7 @@
 ?>      
 
     <div class="container">
-        <div class="jumbotron-matematica my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat">
+        <div class="jumbotron-matematica my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat center">
     </div>
 
     <h3 class="text-center">Incluir atividade</h3>

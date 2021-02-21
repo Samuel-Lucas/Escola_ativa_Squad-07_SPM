@@ -2,7 +2,7 @@
 <?php include_once "php/includes/header.php"; ?>
 
         <div class="container mb-4">
-            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/mesa1.jpg) no-repeat"></div>
+            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/mesa1.jpg) no-repeat center center"></div>
             <div id="container-historia">
                 <h3 class="text-center text-secondary mb-4"> Metodologias Ativas </h3><br/>
                 <h4> Comunidade escola ativa: Juntos somos mais Fortes!</h4><br/>
