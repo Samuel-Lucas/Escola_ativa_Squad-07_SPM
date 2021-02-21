@@ -24,7 +24,7 @@
                         <div class="row d-flex flex-wrap justify-content-between espacamento">
 
                     <div class="card my-2 mx-auto" style="width: 18rem; cursor: pointer;">
-                        <a href="atividade2.php"><img class="card-img-top" src="./img/torre_matemática.jpg" alt="Torre de espaguete">
+                        <a href="atividade2.php"><img class="card-img-top" src="./img/torre_matemática.jpg" alt="Torre de espaguete"></a>
                         <div class="card-body bg-light">
                           <h5 class="card-title">Torre de espaguete</h5>
                           <p class="card-text">Colaboração: Roselice Parmegiani.</p>
