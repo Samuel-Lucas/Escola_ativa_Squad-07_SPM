@@ -24,7 +24,7 @@
                         <div class="row d-flex flex-wrap justify-content-between espacamento">
 
                     <div class="card my-2 mx-auto" style="width: 18rem; cursor: pointer;">
-                        <a href="atividades.php"><img class="card-img-top" src="./img/pedrinha.jpg" alt="atividade com pedrinha">
+                        <a href="atividades.php"><img class="card-img-top" src="./img/pedrinha.jpg" alt="atividade com pedrinha"></a>
                         <div class="card-body bg-light">
                           <h5 class="card-title">Atividade com pedrinhas</h5>
                           <p class="card-text">Colaboração: Rosania e Nilma.</p>
