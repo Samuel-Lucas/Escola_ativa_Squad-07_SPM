@@ -66,15 +66,15 @@ function validaForm(form) {
         return false
     }
 
-    if(confirmasenha == '') {
-        alert('Confirme sua senha')
-        form.confirmasenha.focus()
-        return false
-    }
-
     if(senha.length < 6) {
         alert('Sua senha precisa ter no mínimo 6 caracteres')
         form.senha.focus()
+        return false
+    }
+
+    if(confirmasenha == '') {
+        alert('Confirme sua senha')
+        form.confirmasenha.focus()
         return false
     }
 

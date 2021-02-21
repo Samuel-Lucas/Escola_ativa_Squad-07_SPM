@@ -7,11 +7,12 @@
 
 .jumbotron {
     height: 600px;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(167, 30, 59, 0.5);
+   /* box-shadow:inset 0 0 0 2000px rgba(167, 30, 59, 0.5); */
 }
 
 .jumbotron-matematica {
@@ -20,7 +21,7 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(167, 30, 59, 0.5);
+    /*box-shadow:inset 0 0 0 2000px rgba(167, 30, 59, 0.5); */
 }
 
 .link-color:hover {
@@ -28,7 +29,7 @@
 }
 
 .jumbotron h3 {
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
     font-size: 40px;
 
 }
