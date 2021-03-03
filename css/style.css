@@ -186,3 +186,46 @@
     left: 260px;
     border-bottom: 2px solid #D7D7D7;
 }
+.section-title-center{
+    text-align: center;
+    text-decoration-line:underline;
+}
+div.titulo {
+    height: 1px;
+    background-color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+div.titulo span {
+    background-color: white;
+    position: relative;
+    top: -0.7em;
+    padding: 0 10px;
+   font-size: 20px;
+   font-weight: bolder;
+  }
+  .equipe_atividade{   
+   font-size: 14px;
+  }
+  .nome {
+    font-weight: bolder;
+  }
+  .lista li{
+    list-style: square;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .metodologia{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  .fonte{
+      margin-top: 50px;
+      font-size: 12px;
+  }
