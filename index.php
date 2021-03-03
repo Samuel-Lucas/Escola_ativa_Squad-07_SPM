@@ -8,7 +8,7 @@
               </div>
             </a>
 
-            <h4 class="text-center text-secondary mb-4" style="margin-top: 80px">Metodologias Ativas</h4>
+            <h4 class="text-center text-secondary mb-4 section-title-center" style="margin-top: 80px">Metodologias Ativas</h4>
 
             <div class="container">
                 <div class="row d-flex flex-wrap justify-content-between espacamento">
