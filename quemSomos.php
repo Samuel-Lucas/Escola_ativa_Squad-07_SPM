@@ -2,23 +2,64 @@
 <?php include_once "php/includes/header.php"; ?>
 
         <div class="container mb-5">
-            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/aula1.jpg) no-repeat center"></div>
+            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/equipe.jpg) no-repeat"></div>
             <div id="container-historia">
-                <h4 class="text-center text-secondary mb-4"> Quem Somos </h4><br/>
-                <p> &numsp; &numsp; Comunidade de professores que compartilham metodologias ativas e boas práticas pedagógicas voltadas para escolas.</p><br/>
-                <h4> Nossa Missão </h4><br/>
-                <p> &numsp; &numsp; Aumentar o alcance das metodologias ativas a serem aplicadas dentro e fora da sala de aula, utilizando matéria prima de fácil acesso e materiais reciclados, aliados a conteúdo aplicado dentro da BNCC. </p><br/>
-                <h4>Vantagens</h4>
-                <p>
-                <ul class="ml-4">
-                    <li> O(A) professor(a) é nosso protagonista; </li>
-                    <li> Compartilhando ensinamentos e boas páticas em metodologias ativas podemos aumentar os níveis de ensino e retenção do aprendizado dos nossos alunos.</li>
-                    <li> Com o trabalho de educaçâo inclusiva, podemos minimizar as evasões escolares, aumentar o engajamento e a retenção do aprendizado ao longo da vida escolar. </li>
-                    <li> O IDEB 2019 mostra com dados a necessidade de adotar medidas para avanços na aprendizagem ao longo da vida escolar, e as metodologias ativas podem gerar 
-                            avanços na construção do conhecimento e retençaõ de conteúdos. </li>
-                    <li style="list-style: none; text-align: center; text-indent:-4em;"><img src="img/dados_aprendizagem.png" alt="Card image cap"></li>
-                </ul><br/>
-                </p>
+                <h3 class="text-center text-secondary mb-4 section-title-center"> Quem Somos </h3><br/>
+                <p> &numsp; &numsp; Somos uma equipe de estudante da Recode Pro que acreditamos na equidade de aprendizado em relação as 
+                escolas públicas, privadas ou filantrópicas. E como base nessa crença, utilizamos nossas habilidades e conhecimentos 
+                adquiridos no curso de desenvolvimento Full Stack para contribuir através desta plataforma, com ferramentas facilitadoras 
+                de aprendizagem, por meio de materiais reciclados ou de baixo custo para auxiliar os professores que são o elo principal 
+                para uma aprendizagem de qualidade.</p><br/>
+                <center><p>"Ensinar não é transferir conhecimento,<br /> 
+                mas criar as possibilidades para sua própria<br /> 
+                produção ou sua construção"<br />
+                <small>Paulo Freire<small></p></center>
+                <img src="./img/quemsomos.jpg" alt="Missão, Visão e Valores"><br /><br />
+                <div class="titulo">
+                    <span>EQUIPE</span>
+                </div>
+                <div class="row d-flex flex-wrap">
+                    <div class="card-body mx-auto">
+                        <img src="img/sonia.png" alt="Sonia Ferreira Borges"><br /><br />
+                        <div class="equipe_atividade">Dev Fullstack - Gerente de Projetos</div>
+                        <h5 class="card-title nome">Sonia Borges</h5>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <img src="img/william.png" alt="William Lopes da Silva Malaquias"><br /><br />
+                        <div class="equipe_atividade">Dev Fullstack - Coord. de Projetos</div>
+                        <h5 class="card-title nome">William Malaquias</h5>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <img src="img/mario.png" alt="Mário Menezes"><br /><br />
+                        <div class="equipe_atividade">Dev Fullstack - Designer</div>
+                        <h5 class="card-title nome">Mário Menezes</h5>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <img src="img/ingrid.png" alt="Ingrid de Paula Xavier"><br /><br />
+                        <div class="equipe_atividade">Dev Fullstack - Frontend/Backend</div>
+                        <h5 class="card-title nome">Ingrid Xavier</h5>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <img src="img/samuel.png" alt="Samuel Lucas Moreira de Araújo"><br /><br />
+                        <div class="equipe_atividade">Dev Fullstack - Frontend/Backend</div>
+                        <h5 class="card-title nome">Samuel Lucas Araújo</h5>
+                    </div>
+                </div>
+                <div class="titulo">
+                    <span>PARCEIROS</span>
+                </div>
+                <div class="row d-flex flex-wrap">
+                    <div class="card-body mx-auto">
+                        <img src="img/logo_cae.png" alt="Parceiro Cae">
+                        <h6 class="card-title"><strong>Startup de Tecnologia e Educação</strong></h6>
+                    </div>
+                    <div class="card-body mx-auto">
+                    <img src="img/logos_sipeb.png" alt="Parceira Tabor Sipeb">
+                        <h6 class="card-title"><strong>Escola Filantrópica Tabor Sipeb</strong></h6>
+                    </div>
+                </div>
+                </div><br />
+                
             </div>
         </div>
         
