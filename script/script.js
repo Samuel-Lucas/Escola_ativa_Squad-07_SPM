@@ -123,7 +123,7 @@ function validaAtividade(form){
         return false
     }
 
-    if (descricao.length > 1000) {
+    if (descricao.length > 5000) {
         alert('Limite máximo de caracteres para a descrição ultrapassado.')
         form.descricao.focus()
         return false

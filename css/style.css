@@ -7,12 +7,27 @@
 
 .jumbotron {
     height: 600px;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
    /* box-shadow:inset 0 0 0 2000px rgba(167, 30, 59, 0.5); */
+}
+
+.jumbotron-quem-somos {
+    height: 384px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-metodologias-ativas {
+    height: 274px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .jumbotron-matematica {
@@ -229,3 +244,20 @@ div.titulo span {
       margin-top: 50px;
       font-size: 12px;
   }
+  
+@media (max-width : 375px) {
+    .img-mvv {
+        width: 255px;
+        height: 160px;
+    }
+}
+
+@media (min-width : 375px) {
+    .img-mvv {
+        width: 100%;
+    }
+}
+
+.card-metodologia img {
+    width: 100%;
+}

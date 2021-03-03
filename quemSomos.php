@@ -2,9 +2,9 @@
 <?php include_once "php/includes/header.php"; ?>
 
         <div class="container mb-5">
-            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/equipe.jpg) no-repeat"></div>
-            <div id="container-historia">
-                <h3 class="text-center text-secondary mb-4 section-title-center"> Quem Somos </h3><br/>
+            <div class="jumbotron-quem-somos mt-3 d-flex align-items-center" style="background: url(img/equipe.jpg) no-repeat center;"></div>
+            <div id="container-historia" class="mt-4">
+                <h3 class="text-center text-secondary mb-2 section-title-center"> Quem Somos </h3><br/>
                 <p> &numsp; &numsp; Somos uma equipe de estudante da Recode Pro que acreditamos na equidade de aprendizado em relação as 
                 escolas públicas, privadas ou filantrópicas. E como base nessa crença, utilizamos nossas habilidades e conhecimentos 
                 adquiridos no curso de desenvolvimento Full Stack para contribuir através desta plataforma, com ferramentas facilitadoras 
@@ -14,7 +14,7 @@
                 mas criar as possibilidades para sua própria<br /> 
                 produção ou sua construção"<br />
                 <small>Paulo Freire<small></p></center>
-                <img src="./img/quemsomos.jpg" alt="Missão, Visão e Valores"><br /><br />
+                <img src="./img/quemsomos.jpg" alt="Missão, Visão e Valores" class="img-mvv"><br /><br />
                 <div class="titulo">
                     <span>EQUIPE</span>
                 </div>
@@ -49,13 +49,13 @@
                     <span>PARCEIROS</span>
                 </div>
                 <div class="row d-flex flex-wrap">
-                    <div class="card-body mx-auto">
+                    <div class="card-body">
                         <img src="img/logo_cae.png" alt="Parceiro Cae">
-                        <h6 class="card-title"><strong>Startup de Tecnologia e Educação</strong></h6>
+                        <h6 class="card-title pt-3"><strong>Startup de Tecnologia e Educação</strong></h6>
                     </div>
-                    <div class="card-body mx-auto">
+                    <div class="card-body">
                     <img src="img/logos_sipeb.png" alt="Parceira Tabor Sipeb">
-                        <h6 class="card-title"><strong>Escola Filantrópica Tabor Sipeb</strong></h6>
+                        <h6 class="card-title pt-3"><strong>Escola Filantrópica Tabor Sipeb</strong></h6>
                     </div>
                 </div>
                 </div><br />

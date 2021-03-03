@@ -2,9 +2,9 @@
 <?php include_once "php/includes/header.php"; ?>
 
         <div class="container mb-4">
-            <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat"></div>
+            <div class="jumbotron-metodologias-ativas my-4 d-flex align-items-center" style="background: url(img/atividade.jpg) no-repeat center;"></div>
             <div id="container-historia">
-                <h3 class="text-center text-secondary mb-4 section-title-center"> Metodologias Ativas </h3><br/>
+                <h3 class="text-center text-secondary mb-3 section-title-center"> Metodologias Ativas </h3><br/>
                 <p>A Metodologia Ativa de Aprendizagem pode englobar diferentes práticas dentro e fora da sala de aula. 
                     Pois possui como principal característica a inserção do aluno como protagonista da própria aprendizagem, 
                     permitindo-os reconhecer os recursos que melhor funcionam para si, enxergar o professor como um companheiro 
@@ -57,15 +57,15 @@
                             conhecimentos adquiridos e tira possíveis dúvidas de conteúdo com a ajuda e orientação do professor.
                         </p>
                         <div class="row d-flex flex-wrap">
-                            <div class="card-body mx-auto" style="width: 18rem;">
+                            <div class="card-body mx-auto card-metodologia" style="width: 18rem;">
                                 <p>1. Baseado no tema proposto os alunos fazem as pesquisas</p>
                                 <img src="img/pesquisa_alunos.png" alt="Alunos realizando pesquisa">
                             </div>
-                            <div class="card-body mx-auto" style="width: 18rem;">
+                            <div class="card-body mx-auto card-metodologia" style="width: 18rem;">
                                 <p>2. Discutir em grupo sobre as informações encontradas</p>
                                 <img src="img/discursao_grupo.png" alt="Discursao em grupo">
                             </div>
-                            <div class="card-body mx-auto" style="width: 18rem;">
+                            <div class="card-body mx-auto card-metodologia" style="width: 18rem;">
                                 <p>3. Desenvolvem apresentações sobre as discussões</p>
                                 <img src="img/apresentacao.png" alt="Apresentaçao em sala">
                             </div>
