@@ -28,7 +28,7 @@
                         </div>
                         <div class="card my-5 mx-auto" style="width: 21rem;">
                             <div class="card-body bg-light">
-                                <center><h6 class="card-title atividades">Gameficação</h6></center>
+                                <center><h6 class="card-title atividades">Gamificação</h6></center>
                             </div>
                         </div>
                         <div class="card my-4 mx-auto" style="width: 21rem; cursor: pointer;">

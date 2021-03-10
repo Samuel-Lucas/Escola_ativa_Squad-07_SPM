@@ -33,8 +33,12 @@
 
                     <b>Avaliação:</b> - Não Formal<br /><br />
 
-                    <b>Link da Aplicação (Referência):</b><br /> 
-                    https://www.ensinandomatematica.com/matematica-mao-na-massa/#:~:text=A%20ideia%20de%20propor%20atividades,solu%C3%A7%C3%B5es%20para%20problemas%20de%20engenharia.<br />
+                    <b>Link da Aplicação (Referência):</b><br />
+
+                    <div style="width: 100%; word-wrap: break-word;">
+                        https://www.ensinandomatematica.com/matematica-mao-na-massa/#:~:text=A%20ideia%20de%20propor%20atividades,solu%C3%A7%C3%B5es%20para%20problemas%20de%20engenharia.
+                    </div> 
+                   
 
                 </div>
         </div>

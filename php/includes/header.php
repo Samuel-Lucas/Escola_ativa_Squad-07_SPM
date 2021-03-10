@@ -18,13 +18,6 @@
       
                 <div class="collapse navbar-collapse" id="navPrincipal">
                   <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item d-flex m-1">
-                        <div class="d-block d-md-none">
-                            <img src="img/escola_ativa.jpg" width="30">
-                        </div>
-                        <a href="index.php" class="nav-link ml-1">Comunidade Escola Ativa</a>
-                    </li>
       
                     <li class="nav-item d-flex m-1">
                         <div class="d-block d-md-none">

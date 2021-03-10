@@ -127,7 +127,7 @@
     padding-left:60px;
 }
 #container_anoLetivo{
-    width: 700px;
+    width: 100%;
     display: inline-flex;
     flex-wrap: wrap;
     font-size: 18px;
@@ -143,6 +143,7 @@
     font-size: 24px
 }
 .espacamento{
+    width: 100%;
     padding-bottom: 100px;
 }
 .ensino{
@@ -166,19 +167,19 @@
 .fracao{
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 100%;
 }
 .seta{
     width: 100px;
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 .tamanho{
     font-size: 50px;
 }
 .texto{
-    width: 850px;
-    margin-left: -30px;
+    width: 85%;
+    margin-left: -2px;
     margin-top: 30px;
 }
 
@@ -197,7 +198,7 @@
 }
 
 .linha {
-    width: 927px;
+    width: 100%;
     left: 260px;
     border-bottom: 2px solid #D7D7D7;
 }
