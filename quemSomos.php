@@ -5,7 +5,7 @@
             <div class="jumbotron-quem-somos mt-3 d-flex align-items-center" style="background: url(img/equipe.jpg) no-repeat center;"></div>
             <div id="container-historia" class="mt-4">
                 <h3 class="text-center text-secondary mb-2 section-title-center"> Quem Somos </h3><br/>
-                <p> &numsp; &numsp; Somos uma equipe de estudante da Recode Pro que acreditamos na equidade de aprendizado em relação as 
+                <p> &numsp; &numsp; Somos uma equipe de estudante da Recode Pro que acreditamos na equidade de aprendizado em relação às 
                 escolas públicas, privadas ou filantrópicas. E como base nessa crença, utilizamos nossas habilidades e conhecimentos 
                 adquiridos no curso de desenvolvimento Full Stack para contribuir através desta plataforma, com ferramentas facilitadoras 
                 de aprendizagem, por meio de materiais reciclados ou de baixo custo para auxiliar os professores que são o elo principal 

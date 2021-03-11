@@ -3,7 +3,7 @@
 
     <div class="container mb-4">
         <div class="jumbotron my-4 d-flex align-items-center" style="background: url(img/aula_jumbotron.jpg) no-repeat center top"></div>
-            <h4 class="text-center text-secondary mb-4" style="margin-top: 100px;> Por que aplicar Metodologias Ativas?</h4>
+            <h4 class="text-center text-secondary my-4"> Por que aplicar Metodologias Ativas?</h4>
             <div class="row d-flex flex-wrap" id="container-historia">
                 <p> &numsp; &numsp; <strong>A metodologia ativa</strong> de aprendizagem é uma ruptura brusca com as concepções de ensino mais comumente encontradas 
                 nas escolas. Nela, o lugar do aluno não é na plateia, assistindo passivamente à própria educação acontecer. Aqui a participação do estudante é protagonista, 
@@ -13,7 +13,7 @@
                     Willian Glasser, aprendemos 80% a mais quando fazemos, e 95% quando ensinamos. Já quando temos papel passivo, o percentual é bem menor: 10% quando 
                     lemos, 20% quando escutamos, 30% quando observamos e 50% quando vemos e ouvimos ao mesmo tempo.</p>
                 <p>
-                <p style="padding-left:23%;"><img src="img/piramide_aprendizado.png" alt="Card image cap"></p><br/>  
+                <p style="padding-left:23%;"><img src="img/piramide_aprendizado.png" class="img-piramide" alt="Card image cap"></p><br/>  
                 <i><strong><p> &numsp; &numsp; Aproveite nossa comunidade utilizando e se inspirando e compartilhando ferramentas gratuitas, materiais e conteúdos de fácil 
                     utilização, projetos com materiais domésticos e reciclados para tornar a sua aula mais efetiva em retenção de conteúdo, mais colaborativa e alavancar os 
                     índices de aprendizagem.</p>
@@ -23,6 +23,17 @@
             </div>
             <p style="font-size: 12px">Fonte: https://www.clipescola.com/metodologias-de-ensino-confira</p>
     </div>
+
+        <script>
+
+            window.addEventListener('load', function (){
+                window.scroll({
+                top: 700,
+                behavior: 'smooth'
+                });
+            })
+            
+        </script>
         
 <?php include_once "php/includes/footer.php"; ?>
 <?php include_once "php/includes/final_html.php"; ?>

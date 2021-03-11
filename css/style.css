@@ -39,6 +39,21 @@
     /*box-shadow:inset 0 0 0 2000px rgba(167, 30, 59, 0.5); */
 }
 
+@media (min-width : 768px) {
+
+    .img-piramide {
+        width: 100%;
+    }
+}
+
+@media (max-width : 767px) {
+
+    .img-piramide {
+        width: 90%;
+    }
+}
+
+
 .link-color:hover {
     color: gray;
 }
