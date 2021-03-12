@@ -43,14 +43,9 @@
             <span><label>Título: </label> <input type="text" name="titulo" class="form-control bg-gray"></span><br>
 
             <label>Descrição:</label>
-            <textarea name="descricao" class="form-control bg-gray" cols="20" rows="5"></textarea>
+            <textarea name="descricao" class="form-control bg-gray" cols="20" rows="5"></textarea><br>
 
-
-            <h4 class="text-secondary mt-3">Anexos</h4><br>
-
-            <span><label>Links: </label> <input placeholder="Links de Fontes" type="text" name="links" class="form-control bg-gray"></span><br>
-
-            <span>Upload: Passo_a_Passo.pdf (Exemplo)</span><br><br><br>
+            <span><label>Links: </label> <input placeholder="Links de Fontes" type="text" name="links" class="form-control bg-gray"></span><br><br>
 
             <div class="w-60 mb-4">
                 <span><input type="checkbox" name="termo" value="1"> Declaro ser responsável pelo conteúdo da atividade
